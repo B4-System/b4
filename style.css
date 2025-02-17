@@ -47,7 +47,6 @@ body * {
   max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
-  border: 1px solid red;
 }
 
 /*profile*/
@@ -206,14 +205,17 @@ footer {
 }
 
 #made-by {
-  display: inline;
-  margin-left: 250px;
+  display: flex;
   font-size: 12px;
-  
+  text-align: right;
+  margin-right: 10px;
+  justify-content: right;
 }
 
 #made-by2 {
-  display: inline;
-  margin-left: 5px;
+  display: flex;
   font-size: 12px;
+  text-align: right;
+  margin-right: 10px;
+  justify-content: right;
 }
