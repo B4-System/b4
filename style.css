@@ -203,3 +203,16 @@ footer {
     left: 0;
   }
 }
+
+#made-by {
+  display: inline;
+  margin-left: 303px;
+  font-size: 12px;
+  
+}
+
+#made-by2 {
+  display: inline;
+  margin-left: 5px;
+  font-size: 12px;
+}
