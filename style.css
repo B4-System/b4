@@ -12,6 +12,7 @@
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  --made-by: rgba(255, 255, 255, 0.550);
 }
 
 .light {
@@ -22,6 +23,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  --made-by: rgba(0, 0, 0, 0.550);
 }
 
 body {
@@ -206,16 +208,16 @@ footer {
 
 #made-by {
   display: flex;
-  font-size: 12px;
-  text-align: right;
+  font-size: 10px;
   margin-right: 10px;
   justify-content: right;
+  color: var(--made-by);
 }
 
 #made-by2 {
   display: flex;
-  font-size: 12px;
-  text-align: right;
+  font-size: 10px;
   margin-right: 10px;
   justify-content: right;
+  color: var(--made-by);
 }
